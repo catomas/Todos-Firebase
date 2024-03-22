@@ -5,6 +5,7 @@ import Register from "./components/auth/Register";
 import { AuthProvider } from "./context/authContext";
 
 function App() {
+  console.log(process.env.REACT_APP_YOUR_API_KEY);
   const routesArray = [
     {
       path: "*",
